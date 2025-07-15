@@ -6,7 +6,7 @@ const user = {
     welcomeMessage: function(){
 
         console.log(`${this.username}, welcome to website`);
-        console.log(this);
+         console.log(this);
     }
 }
 
@@ -39,11 +39,11 @@ const user = {
 
 //******const chai = () => {} arrow function */
 
-const chai = () => {
+// const chai = () => {
  
-     let username = "Yash"
-     console.log(this);
-}
+//      let username = "Yash"
+//      console.log(this);
+// }
 
 // chai()
 
@@ -64,10 +64,9 @@ const chai = () => {
 //console.log(addTwo(5, 6));
 
 // if you use {  } you have to write return keyword
-// but in parentheses you don't have to write return keyword
+// but in parentheses () you don't have to write return keyword
 
 //----howto return obj 
 
-const addTwo = (num1, num2) => ({username: "Yash"})
+const addTwo = (num1, num2) => ({username: "Yash"}) //you have to wrape obj in ()other wise it will not work 
 console.log(addTwo(5, 6));
-
